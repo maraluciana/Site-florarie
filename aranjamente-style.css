@@ -1,0 +1,30 @@
+.aranjamente{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imgaranjament{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.aranjamente > div {
+    margin: 10px;
+    padding: 20px;
+}
+
+div.aranj {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+div.pret {
+    text-align: center;
+    padding: 10px 20px;
+  }

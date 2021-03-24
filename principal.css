@@ -1,0 +1,28 @@
+
+.prezentare{
+  padding: 150px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.anunt-titlu{
+  text-shadow: 2px 2px 5px #ffb7cf;
+
+}
+
+.imagine2{
+  display: block;
+  margin-left: auto;
+  width: 50%;
+}
+
+.contact-content{
+  text-align: right;
+
+}
+
+.reducere{
+  text-shadow: 2px 2px red;
+
+
+}

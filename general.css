@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("spring-background-6.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.header {
+    padding: 10px; 
+    background: hsl(351, 100%, 92%);
+    color: rgb(95, 22, 67);
+  }
+  
+.titlu {
+
+    font-size: 3em;
+    text-align: center;
+  }
+
+.subtitle {
+    margin: 0 0 2em 0;
+  }
+
+.fancy {
+    line-height: 0.5;
+    text-align: center;
+  }
+
+.fancy span {
+    display: inline-block;
+    position: relative;  
+  }
+.fancy span:before,
+.fancy span:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    border-bottom: 1px solid rgb(95, 22, 67);
+    border-top: 1px solid rgb(95, 22, 67);
+    top: 0;
+    width: 600px;
+  }
+.fancy span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+.fancy span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+
+.menu {
+    overflow: hidden; 
+    text-align: center;
+    background-color: rgb(172, 120, 160);
+  }
+
+.menu-item {
+    font-weight: bold;
+    text-transform: uppercase;
+    font: Georgia;
+    display: block;
+    float: left;
+    color: rgb(255, 223, 248);
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+.menu-item:hover {
+    background-color: rgb(255, 184, 228);
+    color: black; 
+  }
+
+.imaginetitlu {
+    height: 7em;
+    max-width: 10%;
+  }
+
+.imgdreapta{
+    transform: scaleX(-1);
+}
